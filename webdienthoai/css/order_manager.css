@@ -1,0 +1,77 @@
+body {
+  font-family: "Time New Roman";
+  background-color: #f9f9f9;
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: rgb(74, 167, 225);
+  color: white;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+.description {
+  width: 400px;
+}
+
+img {
+  width: 120px;
+  height: 80px;
+}
+
+.delete,
+.update {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+  padding: 8px;
+}
+
+.add {
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+  width: 150px;
+  background-color: #1dae66;
+}
+
+.add a {
+  text-decoration: none;
+  color: white;
+}
+
+.add:hover {
+  cursor: pointer;
+  background-color: #9cedc5ff;
+}
+
+.delete:hover {
+  border-radius: 10px;
+  color: white;
+  background-color: red;
+}
+
+.update:hover {
+  color: white;
+  border-radius: 10px;
+  background-color: #1dae66;
+}

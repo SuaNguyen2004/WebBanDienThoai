@@ -1,0 +1,218 @@
+body {
+  margin: 0;
+}
+
+.header {
+  background-color: aqua;
+  display: flex;
+  justify-content: space-between;
+  position: fixed; /* Cố định thanh nav */
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  margin: 8px;
+}
+
+Button > a {
+  cursor: pointer;
+}
+.btn {
+  margin: 10px;
+}
+
+.banner {
+  height: 250px;
+}
+
+.banner img {
+  width: 100%;
+  height: 250px;
+}
+
+.tenType {
+  /* background-color: aqua; */
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.menuIOS {
+  /* background-color: gray; */
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap; /* cho phép xuống dòng */
+  justify-content: center;
+  gap: 20px;
+}
+
+.menuIOS button {
+  margin: 15px;
+}
+
+.menuAndroid button {
+  margin: 15px;
+}
+
+.sanPhamIOS img {
+  width: 100%;
+  height: auto;
+}
+
+.sanPhamIOS {
+  width: 300px;
+  /* background-color: blue; */
+  /* margin: 15px;
+  height: 200px; */
+  text-align: center;
+  cursor: pointer;
+}
+
+.sanPhamIOS button {
+  width: 50%;
+  border-radius: 7px;
+  border: 1px solid black;
+}
+
+.menuAndroid {
+  /* background-color: gray; */
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap; /* cho phép xuống dòng */
+  justify-content: center;
+  gap: 20px;
+}
+
+.sanPhamAndroid {
+  width: 300px;
+  /* background-color: blue; */
+  /* margin: 15px;
+  height: 200px; */
+  text-align: center;
+  cursor: pointer;
+}
+
+.sanPhamAndroid img {
+  width: 100%;
+  height: auto;
+}
+
+.sanPhamAndroid button {
+  width: 50%;
+  border-radius: 7px;
+  border: 1px solid black;
+}
+
+.footer1 {
+  /* background-color: aqua; */
+  text-align: center;
+  font-size: 36px;
+  margin: 30px;
+}
+
+.footer2 {
+  display: flex;
+  gap: 30px;
+  margin: auto;
+}
+
+.dichVu {
+  color: rgb(21, 104, 155);
+  padding: 25px;
+  background-color: #fdfdfd;
+  border-radius: 12px;
+  border: 1px solid #e0e0e0;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.footer3 {
+  /* background-color: red; */
+  width: 100%;
+  height: 400px;
+}
+
+.noiDungFooter {
+  background-color: #fdfdfd;
+  color: rgb(18, 19, 20);
+  width: 30%;
+  height: 250px;
+  padding: 30px;
+  margin: 50px auto;
+  border: 1px solid gray;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.footer4 {
+  /* background-color: aqua; */
+  /* text-align: center; */
+  color: rgb(18, 19, 20);
+}
+.footer4 p {
+  /* background-color: aqua; */
+  text-align: center;
+  color: rgb(18, 19, 20);
+}
+
+.footer4 a {
+  color: rgb(18, 19, 20);
+}
+
+.type {
+  margin: 40px 20px;
+  width: 100%;
+}
+
+.tentype {
+  font-size: 22px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.product {
+  width: 250px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.product a {
+  display: block;
+  padding: 0;
+}
+
+.product img {
+  width: 100%;
+  height: 260px;
+  /* object-fit: cover; */
+  border-radius: 8px;
+}
+.btn-dat {
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(74, 167, 225);
+  font-weight: bold;
+  margin: 15px;
+}
