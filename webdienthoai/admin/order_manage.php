@@ -16,7 +16,7 @@
 
         <head>
             <tr>
-                <th>Sản phẩm</th>
+                <th>Tên Sản phẩm</th>
                 <th>Người dùng</th>
                 <th>Tên khách hàng</th>
                 <th>Email</th>

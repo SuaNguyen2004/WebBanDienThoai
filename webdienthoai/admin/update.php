@@ -48,7 +48,7 @@ $row = mysqli_fetch_assoc($result);
         <div>
             <p>Hệ điều hành</p>
             <select name="loai_he_dieu_hanh">
-                <option value="">--- Chọn loại hệ điều hành ---</option>
+                <option value="">-- Chọn loại hệ điều hành --</option>
                 <?php
                 $sqlHDH = "SELECT * FROM he_dieu_hanh";
                 $resultHDH = mysqli_query($conn, $sqlHDH);
