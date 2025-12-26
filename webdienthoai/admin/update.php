@@ -29,7 +29,7 @@ $row = mysqli_fetch_assoc($result);
 
         <div>
             <p>Mã sản phẩm</p>
-            <input type="text" name="ma_san_pham" placeholder="Điền mã sản phẩm"
+            <input type="text" name="ma_san_pham" placeholder="Điền mã sản phẩm "
                 value="<?php echo $row['ma_san_pham'] ?>" required>
         </div>
         <div>
